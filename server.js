@@ -28,4 +28,3 @@ controller.hears(['hello'], ['message_received'], apiai.hears, function(bot, mes
     console.log('hello');
     bot.reply(message, 'Hello!');
 });
-
