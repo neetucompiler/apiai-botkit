@@ -1,5 +1,4 @@
-var Botkit = require('Botkit');
-var os = require('os');
+var Botkit = require('botkit');
 var apiai = require('botkit-middleware-apiai')({
     token: process.env.API_AI_TOKEN,
     skip_bot: false
